@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+
+.channel-content-section {
+  animation: FADEINN 1s ease;
+}
+
+.channel-content-top {
+  position: absolute;
+  top: 110px;
+  left: 310px;
+}
+
+.channel-content-top > p:nth-child(1) {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  width: -webkit-fill-available;
+}
+
+.channel-mid-row {
+  position: absolute;
+  top: 230px;
+  left: 310px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  width: -webkit-fill-available;
+  color: #aaa;
+  justify-content: space-between;
+}
+
+.right-row-side {
+  display: flex;
+  align-items: center;
+  justify-content: inherit;
+  margin-right: 35px;
+  color: #aaa;
+  width: inherit;
+  padding-left: 46%;
+}
+
+.sort-data {
+  display: flex;
+  align-items: center;
+}
+
+.channel-videosss {
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #3eaffe;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.channel-videosss::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: -5px;
+  height: 4px;
+  width: 57px;
+  background-color: #3eaffe;
+  border-radius: 50px;
+  transform: scaleX(1);
+  transition: all 0.2s linear;
+}
+
+.breakk2 {
+  top: 189px;
+  left: 271px;
+}
+
+.breakkk {
+  position: absolute;
+  width: -webkit-fill-available;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.333);
+}
+
+.breakkk2 {
+  position: relative;
+  width: -webkit-fill-available;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.333);
+}
+
+.breakk3 {
+  top: 245px;
+  left: 271px;
+}
+
+.breakk4 {
+  bottom: 12px;
+}
+
+.channels-uploaded-videos-section {
+  position: absolute;
+  top: 210px;
+  left: 270px;
+  width: -webkit-fill-available;
+}
+
+.studio-video-thumbnail {
+  width: 140px;
+}
+
+.video-left-duration {
+  color: white;
+  font-size: 12px;
+  background-color: #000000d6;
+  width: fit-content;
+  padding: 3px;
+  position: relative;
+  top: 27px;
+  right: 37px;
+  border-radius: 3px;
+}
+
+.videos-row-section {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.333);
+}
+
+.video-row-left {
+  padding-left: 25px;
+  margin-top: 15px;
+  border: none;
+  height: 96px;
+}
+
+.video-row-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 35px;
+  width: -webkit-fill-available;
+  padding-left: 40%;
+  font-size: 14px;
+  color: white;
+}
+
+/* Add these CSS rules to your content.css file */
+
+/* Set the table to fill the full width */
+.videos-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style the table header */
+.videos-table th {
+  background-color: #f2f2f200;
+  border: none;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.333);
+  padding: 18px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+/* Style the table rows */
+.videos-table td {
+  border: none;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+/* Align the data on the left and right sides */
+.video-cell {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.studio-video-thumbnail {
+  width: 150px;
+  margin-left: 30px;
+}
+
+.video-left-duration {
+  margin: 0;
+}
+
+.privacy-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.studio-video-details {
+  position: relative;
+  right: 12px;
+  bottom: 8px;
+  width: 42%;
+  text-align: left;
+}
+
+.studio-video-desc {
+  margin-top: 8px;
+  font-size: 12.5px;
+  color: #aaa;
+}
+
+.table-roww {
+  cursor: pointer;
+  transition: all 0.15s ease;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.333);
+}
+
+.table-roww:hover {
+  background-color: #1f1f1f;
+}
+
+.table-roww:hover .studio-video-desc {
+  display: none;
+}
+
+.table-roww:hover .video-editable-section {
+  display: flex;
+}
+
+.table-roww:hover .drop-down {
+  opacity: 1 !important;
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.date-table-head {
+  cursor: pointer;
+}
+
+.video-editable-section {
+  display: none;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+  margin-top: 15.5px;
+  position: relative;
+  z-index: 4;
+}
+
+.video-edit-icons:hover {
+  color: white !important;
+}
+
+.video-edit-icons-light:hover {
+  color: rgb(137, 137, 137) !important;
+}
+
+.extra-options-menu {
+  position: absolute;
+  top: -10px;
+  left: 186px;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1f1f;
+  z-index: 3;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.option-row {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.option-row > p {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.option-row:active {
+  background-color: #111111;
+}
+
+.last-delete-warning {
+  color: white;
+  background-color: #282828;
+  position: fixed;
+  width: 520px;
+  left: 50%;
+  top: 50%;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  animation: fadeUp 0.25s ease forwards;
+}
+
+.deletevideo-thumbnail {
+  width: 160px;
+}
+
+.thisdelete-duration {
+  color: white;
+  font-size: 12px;
+  background-color: #000000d6;
+  width: fit-content;
+  padding: 3px;
+  position: relative;
+  border-radius: 3px;
+  top: 66px;
+  right: 35px;
+}
+
+.thisdelete-video-details {
+  width: 55%;
+  position: relative;
+  right: 12px;
+}
+
+.thisdelete-data {
+  display: flex;
+  align-items: flex-start;
+  background-color: #181818;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.delete-title {
+  font-size: 13.8px;
+}
+.delete-uploaded,
+.delete-views {
+  font-size: 13px;
+  color: #aaa;
+  margin-top: 5px;
+}
+
+.delete-consent {
+  display: flex;
+  align-items: flex-start;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.delete-consent > p {
+  margin-left: 10px;
+  line-height: 22px;
+}
+
+.delete-video-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.delete-css {
+  cursor: pointer;
+
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  outline: none;
+  color: #3eaffe;
+  font-size: 15px;
+}
+
+.cancel-delete {
+  position: relative;
+  right: 30px;
+}
+
+.studio-video-title:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.set-privacy-content {
+  position: absolute;
+  margin-top: 118px;
+}
+
+.select-publicone,
+.select-privateone {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+}
+
+.select-publicone > p,
+.select-privateone > p {
+  margin-left: 15px;
+}
+
+.novideo-available {
+  position: absolute;
+  top: 210px;
+  left: 270px;
+  width: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.novideo-available > p {
+  font-size: 15px;
+  color: #aaa;
+}
+
+.no-content-img {
+  width: 200px;
+  margin-top: 70px;
+}
+
+.channel-dark::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5; /* Set a lower z-index than the auth-popup */
+  animation: Fade2 0.25s ease-out forwards;
+}
+
+.no-skeleton {
+  display: flex;
+  align-items: center;
+}
+
+.no-skeleton2 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* MEDIA QUERIES */
+
+@media (width<= 1190px) {
+  .videos-table {
+    width: max-content;
+  }
+  .channels-uploaded-videos-section {
+    overflow: scroll;
+    height: 68% !important;
+  }
+}
+
+@media (width<= 860px) {
+  .channel-content-top {
+    left: 125px !important;
+  }
+  .breakkk,
+  .channels-uploaded-videos-section {
+    left: 90px !important;
+  }
+}
+
+@media (width<= 650px) {
+  .channel-content-top {
+    left: 34px !important;
+  }
+  .breakkk,
+  .channels-uploaded-videos-section {
+    left: 0px !important;
+  }
+  .novideo-available {
+    left: 10px !important;
+  }
+}
+
+@media (width<= 630px) {
+  .last-delete-warning {
+    width: 85vw !important;
+  }
+}
+
+@media (width<= 460px) {
+  .deletevideo-thumbnail {
+    width: 110px;
+  }
+  .thisdelete-duration {
+    top: 37px;
+    right: 30px;
+    font-size: 10px;
+  }
+  .delete-consent > p {
+    font-size: 13px;
+  }
+  .delete-video-buttons {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .extra-two-delete-btns {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .cancel-delete {
+    right: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .delete-uploaded,
+  .delete-views {
+    font-size: 12px;
+  }
+  .channel-content-top > p:nth-child(1) {
+    font-size: 21.5px;
+  }
+  .channel-videosss {
+    margin-top: 35px;
+  }
+}
+
+@media (width<= 420px) {
+  .last-delete-warning {
+    width: 80.5vw !important;
+  }
+}

@@ -1,0 +1,164 @@
+.dark-mode {
+  background-color: #0f0f0f !important;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: white !important;
+  color: black !important;
+}
+.light-mode::placeholder {
+  background-color: white !important;
+  color: #0f0f0f !important;
+}
+
+.text-light-mode {
+  color: black !important;
+}
+
+.text-light-mode2 {
+  color: rgb(96, 96, 96) !important;
+}
+
+.text-dark-mode {
+  color: white !important;
+}
+
+.btn-light-mode {
+  background-color: #f0f0f0 !important;
+  color: black !important;
+}
+
+.light-border1 {
+  border-bottom: 2px solid #bfbfbf65 !important;
+}
+
+.feature-light:hover {
+  background-color: #f0f0f0 !important;
+}
+.locked2 {
+  background-color: #f0f0f0 !important;
+}
+
+.feature-light2:hover {
+  background-color: #f0f0f0 !important;
+}
+
+.feature-light3 {
+  transition: all 0.2s ease;
+}
+
+.feature-light3:hover {
+  background-color: #dbdbdb !important;
+}
+
+.feature-light:hover .featured-channel-img {
+  filter: brightness(0.6) !important;
+  opacity: 1 !important;
+}
+
+.copy-light {
+  background-color: #0556bf !important;
+  color: white !important;
+}
+
+.signin-light {
+  background-color: white !important;
+  color: rgb(0, 162, 255) !important;
+}
+
+.signin-btn-light {
+  background-color: #1f1f1f !important;
+}
+
+.email-light {
+  border: 1px solid rgb(96, 96, 96);
+}
+
+/* Dashboard theme  */
+
+.studio-light {
+  background-color: #f9f9f9 !important;
+  color: black !important;
+}
+
+.upload-img-light {
+  filter: invert(1);
+}
+
+.create-btn-light:hover {
+  background-color: #e4e4e4 !important;
+}
+
+.preview-light {
+  background-color: #e4e4e4 !important;
+}
+
+.preview-lightt:hover {
+  background-color: #e4e4e4ac !important;
+}
+
+.preview-light2 {
+  background-color: #f9f9f9 !important;
+}
+
+.search2-light {
+  border: 1px solid #9a9a9a !important;
+}
+
+.clear-light:hover {
+  color: rgb(25, 25, 25) !important;
+}
+
+.videodata-light:hover {
+  background-color: #e4e4e4 !important;
+  color: black !important;
+}
+
+.blue-txt {
+  color: #0798ff !important;
+}
+
+.social-lightt {
+  background-color: #e4e4e4 !important;
+}
+
+.add-social-light {
+  background-color: #e4e4e4 !important;
+  color: #606060 !important;
+}
+
+.new-light-border {
+  border: 1px solid #606060a0 !important;
+}
+
+.new-light-border2 {
+  border: 1px dashed #606060a0 !important;
+}
+
+.desc-light-mode {
+  background-color: white !important;
+}
+
+.copy-light-btn,
+.copy-light-btn2 {
+  cursor: pointer;
+  color: #7d7d7d !important;
+}
+
+.copy-light-btn:hover,
+.copy-light-btn2:hover {
+  color: #9e9e9e !important;
+}
+
+.nohover:hover {
+  color: #606060 !important;
+}
+
+.dull-subs {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.error-light{
+  border: 1px solid black !important;
+}
